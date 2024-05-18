@@ -1,0 +1,11 @@
+android_app_import {
+	name: "Wallman",
+	apk: "Wallman.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: false,
+	product_specific: true,
+	preprocessed: true,
+}
