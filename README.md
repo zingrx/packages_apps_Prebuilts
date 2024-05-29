@@ -7,7 +7,7 @@ Start by cloning this repo to your directory by either one of the two methods be
    git clone https://github.com/zingrx/packages_apps_Prebuilts packages/apps/Prebuilts
    ```
    
-2. Add it to `.repo/local_manifest.xml` file (this method provides auto updates with `repo sync`). Create the file if it's found.
+2. Add it to `.repo/local_manifest.xml` file (this method provides auto updates with `repo sync`). Create the file if it's not found.
    ```
    <remote name="zingrx" fetch="https://github.com/zingrx" />
    <project path="packages/apps/Prebuilts" name="packages_apps_Prebuilts" remote="zingrx" revision="main" />
