@@ -21,3 +21,15 @@ android_app_import {
 	product_specific: true,
 	preprocessed: true,
 }
+
+android_app_import {
+	name: "MiRemote",
+	apk: "apps/MiRemotePrebuilt.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: false,
+	product_specific: true,
+	preprocessed: true,
+}
