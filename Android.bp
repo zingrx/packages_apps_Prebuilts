@@ -1,6 +1,6 @@
 android_app_import {
 	name: "Wallman",
-	apk: "Wallman.apk",
+	apk: "apps/Wallman.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -12,7 +12,7 @@ android_app_import {
 
 android_app_import {
 	name: "PixelIsland",
-	apk: "PixelIsland.apk",
+	apk: "apps/PixelIsland.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
