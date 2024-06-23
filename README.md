@@ -20,3 +20,18 @@ Add the below line in your `device.mk` :
 $(call inherit-product, packages/apps/Prebuilts/config.mk)
 ```
 Then add/delete the desired apps in the `config.mk` file in this repo.
+
+If you want to add the prebuilt apps as optional, you can use a flag like below:
+- Step 1:
+  In `device.mk`  add this
+  ```
+  # Prebuilt Apps
+  ifeq ($(INCLUDE_PREBUILTS), true)
+      $(call inherit-product, packages/apps/Prebuilts/config.mk)
+  endif
+  ```
+- Step 2:
+  In `lineage_$device.mk`, add the below flag
+  ```
+  INCLUDE_PREBUILTS := true
+  ```
