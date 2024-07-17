@@ -1,6 +1,6 @@
 android_app_import {
-	name: "Wallman",
-	apk: "apps/Wallman.apk",
+	name: "MiRemote",
+	apk: "apps/MiRemotePrebuilt.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -23,8 +23,8 @@ android_app_import {
 }
 
 android_app_import {
-	name: "MiRemote",
-	apk: "apps/MiRemotePrebuilt.apk",
+	name: "Wallman",
+	apk: "apps/Wallman.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
